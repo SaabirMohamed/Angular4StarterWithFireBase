@@ -1,5 +1,7 @@
 # Angular4FirebaseStarter
- with yarn
+ 
+
+with yarn (takes 
 
 ## A quick start point for an angular 4 application
 
@@ -24,4 +26,9 @@ or run the steps below to do it from scratch.
 I plan to add features to this project as the library progresses.
 
 
-## You can use npm as the package manager too 
+### You can use npm as the package manager too 
+
+# Firebase
+The firebase implementation is at the firebase branch of this repo (features will be added as such keeping the base as master)
+
+the difference is running `yarn add angularfire2 firebase`
