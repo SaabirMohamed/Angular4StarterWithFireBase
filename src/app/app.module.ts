@@ -6,6 +6,9 @@ import { AngularFireModule } from 'angularfire2';
 import { myconfigs } from './myconf';
 import { AppComponent } from './app.component';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent
