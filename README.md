@@ -1,7 +1,7 @@
 # Angular4FirebaseStarter
  
 
-you are in the firebase branch a project template just to get you going, basic template implementing firebase bioler plate.
+you are in the firebase branch a project template just to get you going, basic template implementing firebase boilerplate.
 
 # NOTE
 
@@ -25,4 +25,4 @@ the app.module.ts file already imports the values in and initializes the module
 
 git clone -b firebase https://github.com/SaabirMohamed/Angular4StarterWithFireBase.git
 
-the above command will get you the repo which includes a base template in Angular 4 and firebase boiler plate implemented.
+the above command will get you the repo which includes a base template in Angular 4 and firebase boilerplate implemented.
