@@ -1,7 +1,7 @@
 # Angular4FirebaseStarter
  
 
-with yarn (takes 
+with yarn (downloads quicker)
 
 ## A quick start point for an angular 4 application
 
