@@ -5,15 +5,21 @@ you are in the firebase branch a project template just to get you going, basic t
 
 # NOTE
 
-Your own firebase configs need to to into src/app/myconf.ts file
+Your own firebase configs need be put into src/app/myconf.ts file
 
 `
 export const myconfigs = {
+
     apiKey: '<ADD YOUR CUSTOM VALUE>',
+
     authDomain: '<ADD YOUR CUSTOM VALUE>',
+
     databaseURL: '<ADD YOUR CUSTOM VALUE>',
+
     storageBucket: '<ADD YOUR CUSTOM VALUE>',
+
     messagingSenderId: '<ADD YOUR CUSTOM VALUE>'
+
   };
 
 `
