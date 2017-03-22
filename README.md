@@ -1,34 +1,28 @@
 # Angular4FirebaseStarter
  
 
-with yarn (downloads quicker)
+you are in the firebase branch a project template just to get you going, basic template implementing firebase bioler plate.
 
-## A quick start point for an angular 4 application
+# NOTE
 
-### Clone or fork  this ... 
+Your own firebase configs need to to into src/app/myconf.ts file
 
-and run `yarn install` 
+`
+export const myconfigs = {
+    apiKey: '<ADD YOUR CUSTOM VALUE>',
+    authDomain: '<ADD YOUR CUSTOM VALUE>',
+    databaseURL: '<ADD YOUR CUSTOM VALUE>',
+    storageBucket: '<ADD YOUR CUSTOM VALUE>',
+    messagingSenderId: '<ADD YOUR CUSTOM VALUE>'
+  };
 
-or run the steps below to do it from scratch.
+`
 
-## Scaffolding the project
+the app.module.ts file already imports the values in and initializes the module
+` AngularFireModule.initializeApp(myconfigs) `
 
-`ng new [myangular4project]`
+# Cloning this branch directly 
 
-## upgrading to angular 4 right now (this will change soon)
-`yarn add @angular/common@next @angular/compiler@next @angular/compiler-cli@next @angular/core@next @angular/forms@next @angular/http@next @angular/platform-browser@next @angular/platform-browser-dynamic@next @angular/platform-server@next @angular/router@next @angular/animations@next`
+git clone -b firebase https://github.com/SaabirMohamed/Angular4StarterWithFireBase.git
 
-`yarn add npm install typescript@2.2.1`
-
-`ng serve`  (and your done with the blank template)
-
-## Future plans
-I plan to add features to this project as the library progresses.
-
-
-### You can use npm as the package manager too 
-
-# Firebase
-The firebase implementation is at the firebase branch of this repo (features will be added as such keeping the base as master)
-
-the difference is running `yarn add angularfire2 firebase`
+the above command will get you the repo which includes a base template in Angular 4 and firebase boiler plate implemented.
